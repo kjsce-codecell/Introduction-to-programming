@@ -2,8 +2,8 @@
 
 [Installation](./installation.md)
 
-1. [Variables](./variables.md)
-2. [I/O]()
+1. [Variables](./1-Variables.md)
+2. [I/O](./2-Input-Output.md)
 3. [Arrays]()
 4. [DICTIONARIES]()
 5. [SETS]()
