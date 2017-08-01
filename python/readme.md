@@ -1,6 +1,5 @@
-<h1 align="center" > X = Python3</h1>
+### Python
 
-[Installation](./installation.md)
 
 1. [Variables](./variables.md)
 2. [I/O]()
@@ -12,3 +11,4 @@
 8. [In build functions]()
 9. [User defined functions]()
 10. [Lambda]()
+11. [Strings](./strings.md)
