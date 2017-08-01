@@ -1,7 +1,7 @@
 ### Python
 
 
-1. [Variables]()
+1. [Variables](./variables.md)
 2. [I/O]()
 3. [Arrays]()
 4. [DICTIONARIES]()
