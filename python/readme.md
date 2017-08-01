@@ -1,5 +1,6 @@
-### Python
+<h1 align="center" > X = Python3</h1>
 
+[Installation](./installation.md)
 
 1. [Variables](./variables.md)
 2. [I/O]()
