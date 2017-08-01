@@ -1,3 +1,3 @@
 # Introduction to Programming 
 
-1. [Python](./python/README.md)
+1. [Python](./python/readme.md)
