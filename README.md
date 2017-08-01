@@ -1,2 +1,3 @@
-# Introduction-to-programming
-A single repo for introduction to programming in X
+# Introduction to Programming in X
+
+X = [Python](./python/readme.md)
