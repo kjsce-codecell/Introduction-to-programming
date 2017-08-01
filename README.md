@@ -1,3 +1,3 @@
-# Introduction to Programming 
+# Introduction to Programming in X
 
-1. [Python](./python/readme.md)
+X = [Python](./python/readme.md)
