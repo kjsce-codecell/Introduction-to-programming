@@ -67,6 +67,7 @@ The Hound
 -Arya Stark
 ```
 * For loop can be further combined with range function and used for looping through consecutive values in the range
+
 ### Implementation
 ```python
 for x in range(1,11): #make a note of of the ending point of the list
