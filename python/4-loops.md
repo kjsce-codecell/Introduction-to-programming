@@ -8,20 +8,22 @@
 	* while loop
 	* for loop
 
-## While 
+## While
 * The basic idea behind while loop is
 	__while some condition is true execute the following block of code__
 
 ### Implementation
+
 ```python
 count=1 # initializes a counter variable equal to 1
 while(count<=10): # checks if value of counter is less than equal to 15 if yes then execute the below
-	print(str(count)+") I will do my homework everyday") 
+	print(str(count)+") I will do my homework everyday")
 	count=count+1 #increments the value of counter otherwise it will remain less than 10 forever and thus infinite loop
 print("Sorry")
 ```
-_Output_
-```
+ _Output_
+
+```Python
 1) I will do my homework everyday
 2) I will do my homework everyday
 3) I will do my homework everyday
@@ -33,7 +35,9 @@ _Output_
 9) I will do my homework everyday
 10) I will do my homework everyday
 Sorry
+
 ```
+
 Here one should take care of the fact that lines which are indented inside the while are executed as and when the loop is true but the ones outside ie. `print(sorry)` is executed only once
 
 ## For
@@ -45,8 +49,8 @@ Here one should take care of the fact that lines which are indented inside the w
 #A girl has no name
 list=['Jofrey','Cersei','Walder Frey','Meryn Trant','The Red Woman','Beric Dondarrion','Thoros of Myr','Ilyn Payne','The Mountain','The Hound'] # initialize a list with some values
 for people in list: # assigns people a temporary value of elements in the list one by one and executes the code till all elemets in the list are iterated
-	print(people) #prints the current value in the variable people each time	
-print("-Arya Stark") # You know who is it but look out for the indentation 
+	print(people) #prints the current value in the variable people each time
+print("-Arya Stark") # You know who is it but look out for the indentation
 ```
 _Output_
 ```
@@ -89,10 +93,10 @@ for loop and while can in some situations be used interchangeably and thus comes
 ### Implementation
 ```python
 count=1 #initializes count with value equal to 1
-while(count<10): #checks if the count is less than 10 
+while(count<10): #checks if the count is less than 10
 	print("Downloaded",str(10*count)+"% |",end="") #prints this for each time while is true
 	for x in range(0,count): #prints '::' for each loop from 0 to current value of count
-		print("::",end="") 
+		print("::",end="")
 	for x in range(count,10): # prints '  ' for each loop from current value of count upto 10
 		print("  ",end="")
 	print("|") #prints '|' once in while literally :)
