@@ -6,7 +6,7 @@
  1. [Variables](./1-Variables.md)
  2. [I/O](./2-Input-Output.md)
  3. [Conditional statements](./3-Conditionals.md)
- 4. [Loops]()
+ 4. [Loops](./4-loops.md)
  5. [Strings](./5-Strings.md)
  6. [Arrays/Lists](./6-Lists.md)
  7. [Dictionaries]()
