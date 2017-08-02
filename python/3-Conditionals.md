@@ -59,7 +59,7 @@ Ankit=10.00
 Siddharth=9.80
 if(Ankit>Siddharth): #checks if the given condition is true
 	print("Ankit studies harder than Siddharth")
-elif(Siddharth>Ankit): #checks if the given condn is true provided all condn above it are false 
+elif(Siddharth>Ankit): #checks if the given condn is true provided all condn above it are false
 	print("Siddharth studies harder than Ankit")
 else: #makes the below statements to execute if all the above condition is false
 	print("Both of them study equally hard")
@@ -92,9 +92,9 @@ Output
 ```
 Ankit studies harder than Siddharth and Chaitya
 ```
-Here which else and elif corresponds to which if is decided by the indentation and hence it plays a important role and must be taken care of. 
+Here which else and elif corresponds to which if is decided by the indentation and hence it plays a important role and must be taken care of.
 <br><br>
-* Also a single condition can check multiple condition using logical operators 
+* Also a single condition can check multiple condition using logical operators
 ### Implementation
 
 ```python
