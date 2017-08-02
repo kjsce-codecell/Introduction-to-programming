@@ -9,7 +9,7 @@
  4. [Loops](./4-loops.md)
  5. [Strings](./5-Strings.md)
  6. [Arrays/Lists](./6-Lists.md)
- 7. [Dictionaries]()
+ 7. [Dictionaries](./7-Dictionaries.md)
  8. [Sets]()
  9. [In build functions]()
  10. [User defined functions]()
