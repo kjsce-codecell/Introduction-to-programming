@@ -1,14 +1,14 @@
 <h1 align="center"> Variables </h1>
 
 
-### What is Variable?
+## What is Variable?
 
 >A variable is nothing but a reserved memory location to store values. In other words a variable in a program gives data to the computer to work on.
 
 >Python is completely object oriented, and not "statically typed". You do not need to declare variables before using them, or declare their type. Every variable in Python is an object.(C and Java users beware, this might seem a bit strange for you to digest :P)
 
 
-### Declaration
+## Declaration
 
 >The operand to the left of the = operator is the name of the variable and the operand to the right of the = operator is the value stored in the variable.
 
@@ -18,7 +18,7 @@ year = 2019        # An integer assignment
 pointer = 10.0     # A floating point <- yes , this guy is amazing
 ```
 
-### Multiple Assignments
+## Multiple Assignments
 
 >Python allows you to assign a single value to several variables simultaneously.
 
