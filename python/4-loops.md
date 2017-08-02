@@ -2,7 +2,9 @@
 
 ## Why LOOPS?
 * Loops make our life easier by making it easier for us to perform repetetive task without having to actually write the same piece of code again and again that many times
+
 * That is it helps you to perform a task as many as times you require depending on the condition you specify
+
 ## Different types of loop
 * The two major kinds of loops that are used are
 	* while loop
@@ -91,7 +93,9 @@ for loop and while can in some situations be used interchangeably and thus comes
 
 ## Nesting
 * for and while loops can also be nested within each other as many times required and as the situation demands
+
 ### Implementation
+
 ```python
 count=1 #initializes count with value equal to 1
 while(count<10): #checks if the count is less than 10
@@ -106,6 +110,7 @@ print("Download Complete 100%")
 
 ```
 _Output_
+
 ```
 Downloaded 10% |::                  |
 Downloaded 20% |::::                |
