@@ -1,8 +1,8 @@
 <h1 align="center"> User Defined Functions </h1>
 
-In all programming and scripting language, a function is a block of program statements which can be used repetitively in a program. It saves the time of a developer. In Python concept of function is same as in other languages. There are some built-in functions which are part of Python. Besides that, we can defines functions according to our need.
+In all programming and scripting language, a function is a block of program statements which can be used repetitively in a program. It saves the time of a developer. In Python concept of function is same as in other languages. There are some built-in functions which are part of Python. Besides that, we can define functions according to our need.
 
-In Python, a user-defined function's declaration begins with the keyword def and followed by the function name.
+In Python, a user-defined function's declaration begins with the keyword ```def``` and followed by the function name.
 The function may take arguments(s) as input within the opening and closing parentheses, just after the function name followed by a colon.
 After defining the function name and arguments(s) a block of program statement(s) start at the next line and these statement(s) must be indented.
 Here is the syntax of a user defined function.
@@ -52,16 +52,16 @@ def function_name() :
 
 ```
 def printt():  
-    print("This is Python 3.2 Tutorial")  
-    print("This is Python 3.2 Tutorial")  
-    print("This is Python 3.2 Tutorial")  
+    print("I Love CodeCell")  
+    print("I Love CodeCell")  
+    print("I Love CodeCell")  
 printt()  
 ```   
 Output :
 ```
-This is Python 3.2 Tutorial
-This is Python 3.2 Tutorial
-This is Python 3.2 Tutorial
+I Love CodeCell
+I Love CodeCell
+I Love CodeCell
 ```
 ## Explanation :
 
