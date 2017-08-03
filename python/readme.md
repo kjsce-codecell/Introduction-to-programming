@@ -1,6 +1,6 @@
 <h1 align="center" > <a href="../"> X </a> = Python3</h1>
 
-### [Installation](./installation.md)
+### [Installation](./0-installation.md)
 
 ### Concepts :
  1. [Variables](./1-Variables.md)
@@ -12,6 +12,6 @@
  7. [Dictionaries](./7-Dictionaries.md)
  8. [Sets]()
  9. [In build functions]()
- 10. [User defined functions]()
+ 10. [User defined functions](./10-user_defined_functions)
  11. [Lambda]()
  12. [Modules]()
