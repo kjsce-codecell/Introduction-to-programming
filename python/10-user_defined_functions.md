@@ -18,7 +18,7 @@ def function_name(argument1, argument2, ...) :
 
 Calling a function in Python is similar to other programming languages, using the function name, parenthesis (opening and closing) and parameter(s). See the syntax, followed by an example.
 
-## Syntax
+### Syntax
 ```
 function_name(arg1, arg2)
 ```
@@ -32,7 +32,7 @@ Output :
 ```
 Average of 3 and 4 is 3.5
 ```
-## Explanation :
+### Explanation :
 
 1. Lines 1-2 : Details (definition) of the function. 
 2. Line 3 : Call the function.
@@ -63,7 +63,7 @@ I Love CodeCell
 I Love CodeCell
 I Love CodeCell
 ```
-## Explanation :
+### Explanation :
 
 1. Lines 1-4 : Details (definition) of the function. 
 2. Line 5 : Call the function.
@@ -94,7 +94,7 @@ Output :
 ```
 The square of the sum of 2 and 3 is : 25
 ```
-## Explanation :
+### Explanation :
 
 1. Lines 1-2 : Details (definition) of the function. 
 2. Line 3 : Call the function within a print statement.
