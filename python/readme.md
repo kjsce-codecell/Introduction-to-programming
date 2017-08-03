@@ -10,7 +10,7 @@
  5. [Strings](./05-Strings.md)
  6. [Arrays/Lists](./06-Lists.md)
  7. [Dictionaries](./07-Dictionaries.md)
- 8. [Sets]()
+ 8. [Sets](./08-Sets.md)
  9. [In build functions]()
  10. [User defined functions](./10-user_defined_functions.md)
  11. [Lambda]()
