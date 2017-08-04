@@ -8,10 +8,11 @@
 
 ## Syntax
 
-Each key is separated from its value by a colon (:), the items are separated by commas, and the whole thing is enclosed in curly braces. An empty dictionary without any items is written with just two curly braces, like this: {}.
+>Each key is separated from its value by a colon (:), the items are separated by commas, and the whole thing is enclosed in curly braces. An empty dictionary without any items is written with just two curly braces, like this: {}.
 
 <h3>Initialize:</h3>
-Start a new dictionary with some elements and access them.
+
+>Start a new dictionary with some elements and access them.
 
 ```python
 love = {'Sam': 'Gilly', 'Tormund': 'Brienne', 'Jaime': 'Cersei', 'Hound': 'Chicken'}
@@ -20,7 +21,8 @@ print(love['Sam']) #Gilly
 print(love['Hound']) #Chicken
 ```
 <h3>Update Dictonary:</h3>
-Add new entries to a dictionary, delete an entry and clear and delete the entire dictionary.
+
+>Add new entries to a dictionary, delete an entry and clear and delete the entire dictionary.
 
 ```python
 #Take the dictionary declared above.
@@ -43,7 +45,8 @@ print(love['Jaime']) #Gives Error that love is not defined
 ```
 ## Properties
 <h3>Keys are unique:</h3>
-Really?? Just jump to the code.
+
+>Really?? Just jump to the code.
 
 ```python
 #Consider love
@@ -53,46 +56,50 @@ love['Littlefinger'] = 'Catelyn'
 love['Littlefinger'] = 'Sansa'
 print(love['Littlefinger']) #Sansa
 ```
-Yes, the latest value gets assigned.
+>Yes, the latest value gets assigned.
 
 <h3>Keys must be immutable:</h3>
-The following are some immutable objects:
 
-* int
-* float
-* decimal
-* complex
-* bool
-* string
-* tuple
-* range
-* frozenset
-* bytes
+>The following are some immutable objects:
+>* int
+>* float
+>* decimal
+>* complex
+>* bool
+>* string
+>* tuple
+>* range
+>* frozenset
+>* bytes
 
 ## Functions
-These are called directly and the dictionary object is passed as (function(dict))
+>These are called directly and the dictionary object is passed as (function(dict))
 <h3>len()</h3>
-Gives the total length of the dictionary. This would be equal to the number of items in the dictionary.
+
+>Gives the total length of the dictionary. This would be equal to the number of items in the dictionary.
 
 ```python
 dict = {'Key': 'Value'}
 print(len(dict)) #1
 ```
 <h3>str()</h3>
-Gives a string representation of the dictionary.
+
+>Gives a string representation of the dictionary.
 
 ```python
 #Consider love
 print(str(love)) #Try yourself
 ```
 ## Methods
-These are called using the dictionary object like (dict.method())
+>These are called using the dictionary object like (dict.method())
 
 <h3>clear()</h3>
-Removes all elements of dictionary.
+
+>Removes all elements of dictionary.
 
 <h3>copy()</h3>
-Returns a copy of the dictionary, which can be stored in another dictionary.
+
+>Returns a copy of the dictionary, which can be stored in another dictionary.
 
 ```python
 dict1 = {'Key': 'Value'}
@@ -100,7 +107,8 @@ dict2 = dict1.copy() #Now dict2 has all elements of dict1
 ```
 
 <h3>get()</h3>
-It returns the value of the key or None if not found. You can also set a default parameter that will be returned if the key is not found.
+
+>It returns the value of the key or None if not found. You can also set a default parameter that will be returned if the key is not found.
 
 ```python
 #consider love
@@ -110,14 +118,16 @@ print(love.get('Bronn', 'You wouldn\'t know her')) #You wouldn't know her
 ```
 
 <h3>keys()</h3>
-It gives a list of all keys of the dictionary.
+
+>It gives a list of all keys of the dictionary.
 
 ```python
 print(str(love.keys())) #Try yourself
 ```
 
 <h3>values()</h3>
-It gives a list of all values of the dictionary.
+
+>It gives a list of all values of the dictionary.
 
 ```python
 print(str(love.values())) #Try yourself
