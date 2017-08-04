@@ -6,31 +6,31 @@
 > Elements in a list are stored in sequential order . Every element can be accessed by their index value .
 
 ```
-Students                        [ "Chaitya",  "Neel" , "Ankit" , "Siddharth" ]
+Students                  [ "Chaitya",  "Neel" , "Ankit" , "Siddharth" ]
 
-Forward Indexing                   0              1             2               3
+Forward Indexing           0              1             2               3
 
-Backward Indexing               -4             -3             -2            -1
+Backward Indexing       -4             -3             -2            -1
 ```
 ### Declaring and Initializing a list
 
 ```Python
-students = [ ]                           #  empty list
+students = [ ]     #  empty list
 
-students_marks = list( )          #  empty list
+students_marks = list( )  #  empty list
 
-player_scores = [ 78, 103, 200 , 57]            # >>> Initialized list with Integers
+player_scores = [ 78, 103, 200 , 57]   # >>> Initialized list with Integers
 
-player_names = [ "Karan" , "Chirag" , "Jay" , "Raj" ]                   #  Initialized list with strings
+player_names = [ "Karan" , "Chirag" , "Jay" , "Raj" ]   #  Initialized list with strings
 ```
 
 > Unlike other programming languages ,  in python we can  Initialized or store elements in a list which are of different datatypes . For example,
 
 ```python
 
-unknown_list = [ "google", "tensorflow", 73 , 37.5 ]            # works :P
+unknown_list = [ "google", "tensorflow", 73 , 37.5 ]  # works :P
 
-print("Number of elements : "len(unknown_list))                # >>> Number of elements : 4
+print("Number of elements : "len(unknown_list))         # >>> Number of elements : 4
 
 ```
 
@@ -43,19 +43,19 @@ print("Number of elements : "len(unknown_list))                # >>> Number of e
 * append( element ) - We use this method to add elements to the back( last postion ) of the list .
 
 ```python
-scores = [ 1, 2 , 3 , 4 , 5 ]            # Initialized list with Integers
+scores = [ 1, 2 , 3 , 4 , 5 ]   # Initialized list with Integers
 
-scores.append( 6 )                      # score = [ 1, 2, 3, 4, 5, 6]
+scores.append( 6 )      # score = [ 1, 2, 3, 4, 5, 6]
 
-score.append( 20 )              # score = [ 1, 2, 3, 4, 5, 6, 20]
+score.append( 20 )      # score = [ 1, 2, 3, 4, 5, 6, 20]
 
-score.insert( 0 , 8 )           # score = [ 8, 1, 2, 3, 4, 5, 6, 20]
+score.insert( 0 , 8 )   # score = [ 8, 1, 2, 3, 4, 5, 6, 20]
 
-score.insert( 4 , 4.5 )           # score = [ 8, 1, 2, 3, 4, 4.5, 5, 6, 20]
+score.insert( 4 , 4.5 )         # score = [ 8, 1, 2, 3, 4, 4.5, 5, 6, 20]
 
-grades = [ "a" , "b" , "e"]             # Initialized list with characters .
+grades = [ "a" , "b" , "e"]     # Initialized list with characters .
 
-grades[2] = "c"                 # >>> grades = [ "a", "b", "c"]
+grades[2] = "c"         # >>> grades = [ "a", "b", "c"]
 
 
 updated_grades = grades + [ "d", "e", "f"]              # >>> updated_grades = [ "a" , "b" , "c", "d", "e" ,"f"]
@@ -70,14 +70,14 @@ updated_grades.extend("g" ,"h")                 # >>> updated_grades = [ "a" , "
 
  updated_grades = [ "a" , "b" , "c", "d", "e" ,"f"]
 
-print(updated_grades[3])                # >>> d
-print(updated_grades[-2])               # >>> e
+print(updated_grades[3])        # >>> d
+print(updated_grades[-2])       # >>> e
 
-print(updated_grades[3:])               # >>> ["d", "e", "f"]
+print(updated_grades[3:])       # >>> ["d", "e", "f"]
 
-print(updated_grades[2:4])              # >>> [ "c", "d"]
+print(updated_grades[2:4])      # >>> [ "c", "d"]
 
-print(updated_grades[:])                # >>> [ "a" , "b" , "c", "d", "e" ,"f"]
+print(updated_grades[:])        # >>> [ "a" , "b" , "c", "d", "e" ,"f"]
 
 # Get the index of the first item found
 updated_grades.index('c')  # >>> 2
@@ -99,11 +99,11 @@ li  = [ 1, 2, 2, 3]
 
 del li[2]  # li is now [1, 2, 3]
 
-li.append(4)            # li is now [1, 2, 3, 4]
+li.append(4)    # li is now [1, 2, 3, 4]
 
-li.remove(1)            # li is now [ 2, 3, 4 ]
+li.remove(1)    # li is now [ 2, 3, 4 ]
 
-li.pop()                       # li is now [ 2, 3]
+li.pop()        # li is now [ 2, 3]
 
 ```
 ### Traversing through a list
@@ -152,7 +152,7 @@ _output_
 87
 ```
 
-> We can also traverse through a part of the list by simply using list comprehension techniques ( also mentioned above )
+> We can also traverse through a part of the list by simply using list comprehension techniques (also mentioned above)
 
 ```python
 
@@ -184,16 +184,16 @@ B
 ```python
 li = [ 4, 3, 1, 2 , 5 ]
 
-li.sort()               # li is now [1 ,2 , 3 , 4 , 5]
+li.sort()       # li is now [1 ,2 , 3 , 4 , 5]
 
-li.reverse()            # li is now [5, 4, 3, 2, 1]
+li.reverse()    # li is now [5, 4, 3, 2, 1]
 
 li = [ 4, 3, 1, 2 , 5 ]
 
-li.sort(reverse=True)               # li is now [5, 4, 3, 2, 1]
-print(sum(li))                  # >>> 15
+li.sort(reverse=True)   # li is now [5, 4, 3, 2, 1]
+print(sum(li))  # >>> 15
 
 li = ["c" ,"d" , "e" , "a" ,"b" ]
 
-li.sort()                       # li is now ["a", "b" , "c" , "d" , "e"]
+li.sort()       # li is now ["a", "b" , "c" , "d" , "e"]
 ```
