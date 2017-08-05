@@ -197,3 +197,35 @@ li = ["c" ,"d" , "e" , "a" ,"b" ]
 
 li.sort()       # li is now ["a", "b" , "c" , "d" , "e"]
 ```
+
+### List Comprehension
+
+> List comprehensions provide a concise way to create / manipulate  lists . For example,,
+
+
+```python
+student_names = ["dustin" , "mark" ,"adrian" ,"thomas"]
+
+initials = []
+# creating a list of initails of student names
+for student in student_names:
+        initials.append(student[0])
+
+print(initials)         # >>> [ 'd', 'm','a', 't']
+
+# However this can be done in a better way
+initials = [student[0] for student in student_names]
+
+print(initials)         # >>> [ 'd', 'm','a', 't']
+
+# similarly
+name_length = [len(student) for student in student_names]
+
+print(name_length)      # >>> [6, 4 ,6 ,6]      
+
+# list of squares
+
+squares = [i*i for i in range(1,5)]
+print(squares)          # >>> [1, 4 ,9 , 16 , 25]
+
+```
