@@ -8,7 +8,7 @@ After defining the function name and arguments(s) a block of program statement(s
 Here is the syntax of a user defined function.
 
 ## Syntax
-```
+```python
 def function_name(argument1, argument2, ...) :
     statement_1 
     statement_2
@@ -19,11 +19,11 @@ def function_name(argument1, argument2, ...) :
 Calling a function in Python is similar to other programming languages, using the function name, parenthesis (opening and closing) and parameter(s). See the syntax, followed by an example.
 
 ### Syntax
-```
+```python
 function_name(arg1, arg2)
 ```
 ### Example :
-```
+```python
 def avg_number(x, y):  
     print("Average of ",x," and ",y, " is ",(x+y)/2)  
 avg_number(3, 4)  
@@ -42,7 +42,7 @@ Average of 3 and 4 is 3.5
 ## Function without arguments :
 
 The following function has no arguments.
-```
+```python
 def function_name() :
     statement_1 
     statement_2
@@ -50,7 +50,7 @@ def function_name() :
 ```
 ### Example :
 
-```
+```python
 def printt():  
     print("I Love CodeCell")  
     print("I Love CodeCell")  
@@ -73,7 +73,7 @@ I Love CodeCell
 ## The Return statement in function
 
 In Python the return statement (the word return followed by an expression.) is used to return a value from a function, return statement without an expression argument returns none. See the syntax.
-```
+```python
 def function_name(argument1, argument2, ...) :
     statement_1 
     statement_2
@@ -85,7 +85,7 @@ function_name(arg1, arg2)
 ### Example :
 
 The following function returns the square of the sum of two numbers.
-```
+```python
 def nsquare(x, y):  
     return (x*x + 2*x*y + y*y)  
 print("The square of the sum of 2 and 3 is : ", nsquare(2, 3))  
