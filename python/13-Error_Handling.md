@@ -5,7 +5,7 @@
 
 >Even if a statement or expression is syntactically correct, it may cause an error when an attempt is made to execute it. **Errors detected during execution are called exceptions**
 
-####Some examples :
+#### Some examples :
 
 1.You ask for an integer but input value of other datatype
 ```python 
