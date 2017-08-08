@@ -51,8 +51,8 @@ print("Roll number is :" , roll)                     # >>> Roll number is : 102
 
 > Case 4: here string is variable
 ```Python
-name = input("Enter name: ")    # >>> Enter name : cheetah
-print("My name is " + name)      # >>> My name is : cheetah
+name = input("Enter name: ")    # >>> Enter name: cheetah
+print("My name is " + name)      # >>> My name is cheetah
 ```
 
 #### Printing out `float` values
