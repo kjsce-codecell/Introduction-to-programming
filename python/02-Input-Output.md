@@ -58,7 +58,7 @@ print("My name is " + name)      # >>> My name is : cheetah
 #### Printing out `float` values
 
 ```Python
-average = 10.5782
-print("average is %.2f"%(var))             # >>> average is 10.57
+var = 10.5782
+print("average is %.2f"%(var))             # >>> average is 10.58
 print("now average is %.6f"%var)        # >>> now average is 10.578200
 ```
