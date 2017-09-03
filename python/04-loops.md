@@ -1,7 +1,7 @@
 <h1 align="center"> LOOPS </h1>
 
 ## Why LOOPS?
-* Loops make our life easier by making it easier for us to perform repetetive task without having to actually write the same piece of code again and again that many times
+* Loops make our life easier by making it easier for us to perform repetitive task without having to actually write the same piece of code again and again that many times
 
 * That is it helps you to perform a task as many as times you require depending on the condition you specify
 
@@ -18,7 +18,7 @@
 
 ```python
 count=1 # initializes a counter variable equal to 1
-while(count<=10): # checks if value of counter is less than equal to 15 if yes then execute the below
+while(count<=10): # checks if value of counter is less than equal to 10 if yes then execute the below
 	print(str(count)+") I will do my homework everyday")
 	count=count+1 #increments the value of counter otherwise it will remain less than 10 forever and thus infinite loop
 print("Sorry")
