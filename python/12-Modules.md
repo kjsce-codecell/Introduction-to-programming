@@ -8,7 +8,7 @@ The Python installers for the Windows platform usually include the [entire stand
 * os - operating system interfaces
 
 
-> In addition to the standard library, there is a growing collection of several thousand components (from individual programs and modules to packages and entire application development frameworks), available from [PyPI](https://pypi.python.org/pypi) , which you are free to explore after getting comfortable using some of th built in modules .
+> In addition to the standard library, there is a growing collection of several thousand components (from individual programs and modules to packages and entire application development frameworks), available from [PyPI](https://pypi.python.org/pypi) , which you are free to explore after getting comfortable using some of the built in modules .
 
 ### How do we use them ?
 > We can import modules which are available under [standard library](https://docs.python.org/3/library/index.html) by using _from_ , _as_ and _import_  keyword .
@@ -94,7 +94,7 @@ print(sample([10, 20, 30, 40, 50], k=4))        # >>> [30, 40, 20, 50]
 
 ```python
 import os
-#changs current working directory to test directory inside current directory
+#changes current working directory to test directory inside current directory
 os.chdir("./test")     
 
 os.getlogin()   # >>> 'Nishchith'                  
