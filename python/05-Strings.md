@@ -33,16 +33,17 @@ text = 'The value of pi is '  + str(pi)  ## yes
 
 <h2>Functions</h2>
 
-| <center>Function </center>    | <center>What it does</center>  
-| :-------------                | :-------------                   
-| <a>s.lower(), s.upper()</a>        |Returns the lowercase or uppercase version of the string
-| <a>s.strip()</a>        |Returns a string with whitespace removed from the start and end       
+| <center>Function </center>                          | <center>What it does</center>  
+| :-------------                                      | :-------------                   
+| <a>s.lower(), s.upper()</a>                         | Returns the lowercase or uppercase version of the string
+| <a>s.strip()</a>                                    |Returns a string with whitespace removed from the start and end       
 | <a>s.isalpha(), s.isdigit(), s.isspace()</a>        |Tests if all the string chars are in the various character classes    
-| <a>s.startswith('other'), s.endswith('other')</a>        |Tests if the string starts or ends with the given other string     
-| <a>s.find('other')</a>        |Searches for the given other string (not a regular expression) within s, and returns the first index where it begins or -1 if not found       
-| <a>s.replace('old', 'new') </a>        |Returns a string where all occurrences of 'old' have been replaced by 'new'     
-| <a>s.split('delim') </a>        |Returns a list of substrings separated by the given delimiter. The delimiter is not a regular expression, it's just text. 'aaa,bbb,ccc'.split(',') -> ['aaa', 'bbb', 'ccc']. As a convenient special case s.split() (with no arguments) splits on all whitespace chars.
-| <a>s.join(list) </a>        |Opposite of split(), joins the elements in the given list together using the string as the delimiter. e.g. '---'.join(['aaa', 'bbb', 'ccc']) -> aaa---bbb---ccc
+| <a>s.startswith('other'), s.endswith('other')</a>   |Tests if the string starts or ends with the given other string     
+| <a>s.find('other')</a>                              |Searches for the given other string (not a regular expression) within s, and returns the first index where it begins or -1 if not found       
+| <a>s.replace('old', 'new') </a>                     |Returns a string where all occurrences of 'old' have been replaced by 'new'     
+| <a>s.split('delim') </a>                            |Returns a list of substrings separated by the given delimiter. The delimiter is not a regular expression, it's just text. 'aaa,bbb,ccc'.split(',') -> ['aaa', 'bbb', 'ccc']. As a convenient special case s.split() (with no arguments) splits on all whitespace chars.
+| <a>s.join(list) </a>                                |Opposite of split(), joins the elements in the given list together using the string as the delimiter. e.g. '---'.join(['aaa', 'bbb', 'ccc']) -> aaa---bbb---ccc
+
 </br>
 
 <h2>String Slices</h2>  
@@ -51,20 +52,20 @@ text = 'The value of pi is '  + str(pi)  ## yes
 
 | <center>Function </center>    | <center>What it does</center>  
 | :-------------                | :-------------                   
-| <a>s[1:4] </a>        |is 'ell' -- chars starting at index 1 and extending up to but not including index 4
-| <a>s[1:]</a>        |is 'ello' -- omitting either index defaults to the start or end of the string      
-| <a>s[:]</a>        |is 'Hello' -- omitting both always gives us a copy of the whole thing (this is the pythonic way to copy a sequence like a string or list)    
-| <a>s[1:100]</a>        |an index that is too big is truncated down to the string length  
+| <a>s[1:4] </a>                |is 'ell' -- chars starting at index 1 and extending up to but not including index 4
+| <a>s[1:]</a>                  |is 'ello' -- omitting either index defaults to the start or end of the string      
+| <a>s[:]</a>                   |is 'Hello' -- omitting both always gives us a copy of the whole thing (this is the pythonic way to copy a sequence like a string or list)    
+| <a>s[1:100]</a>               |an index that is too big is truncated down to the string length  
 </br>
 
 >The standard zero-based index numbers give easy access to chars near the start of the string. As an alternative, Python uses negative numbers to give easy access to the chars at the end of the string: s[-1] is the last char 'o', s[-2] is 'l' the next-to-last char, and so on. Negative index numbers count back from the end of the string:</br>
 
 | <center>Function </center>    | <center>What it does</center>  
 | :-------------                | :-------------                   
-| <a>s[-1] </a>        |is 'o' -- last char (1st from the end)
-| <a>s[-4]</a>        |is 'e' -- 4th from the end      
-| <a>s[:-3]</a>        |is 'He' -- going up to but not including the last 3 chars    
-| <a>s[-3:]</a>        |is 'llo' -- starting with the 3rd char from the end and extending to the end of the string 
+| <a>s[-1] </a>                 |is 'o' -- last char (1st from the end)
+| <a>s[-4]</a>                  |is 'e' -- 4th from the end      
+| <a>s[:-3]</a>                 |is 'He' -- going up to but not including the last 3 chars    
+| <a>s[-3:]</a>                 |is 'llo' -- starting with the 3rd char from the end and extending to the end of the string 
 </br>
 
 <h2>String %</h2>
