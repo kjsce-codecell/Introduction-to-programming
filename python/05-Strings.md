@@ -44,7 +44,7 @@ text = 'The value of pi is '  + str(pi)  ## yes
 | <a>s.split('delim') </a>                            |Returns a list of substrings separated by the given delimiter. The delimiter is not a regular expression, it's just text. 'aaa,bbb,ccc'.split(',') -> ['aaa', 'bbb', 'ccc']. As a convenient special case s.split() (with no arguments) splits on all whitespace chars.
 | <a>s.join(list) </a>                                |Opposite of split(), joins the elements in the given list together using the string as the delimiter. e.g. '---'.join(['aaa', 'bbb', 'ccc']) -> aaa---bbb---ccc
 
-</br>
+
 
 <h2>String Slices</h2>  
 
@@ -57,7 +57,7 @@ text = 'The value of pi is '  + str(pi)  ## yes
 | <a>s[:]</a>                      | is 'Hello' -- omitting both always gives us a copy of the whole thing (this is the pythonic way to copy a sequence like a string or list)    
 | <a>s[1:100]</a>                  | an index that is too big is truncated down to the string length  
 
-</br>
+
 
 >The standard zero-based index numbers give easy access to chars near the start of the string. As an alternative, Python uses negative numbers to give easy access to the chars at the end of the string: s[-1] is the last char 'o', s[-2] is 'l' the next-to-last char, and so on. Negative index numbers count back from the end of the string:</br>
 
@@ -68,7 +68,7 @@ text = 'The value of pi is '  + str(pi)  ## yes
 | <a>s[:-3]</a>                 | is 'He' -- going up to but not including the last 3 chars    
 | <a>s[-3:]</a>  
 | is 'llo' -- starting with the 3rd char from the end and extending to the end of the string 
-</br>
+
 
 <h2>String %</h2>
 
