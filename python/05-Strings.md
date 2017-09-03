@@ -50,22 +50,24 @@ text = 'The value of pi is '  + str(pi)  ## yes
 
 >The "slice" syntax is a handy way to refer to sub-parts of sequences -- typically strings and lists. The slice s[start:end] is the elements beginning at start and extending up to but not including end. Suppose we have s = "Hello"</br>
 
-| <center>Function </center>    | <center>What it does</center>  
-| :-------------                | :-------------                   
-| <a>s[1:4] </a>                |is 'ell' -- chars starting at index 1 and extending up to but not including index 4
-| <a>s[1:]</a>                  |is 'ello' -- omitting either index defaults to the start or end of the string      
-| <a>s[:]</a>                   |is 'Hello' -- omitting both always gives us a copy of the whole thing (this is the pythonic way to copy a sequence like a string or list)    
-| <a>s[1:100]</a>               |an index that is too big is truncated down to the string length  
+| <center>Function </center>       | <center>What it does</center>  
+| :-------------                   | :-------------                   
+| <a>s[1:4] </a>                   | is 'ell' -- chars starting at index 1 and extending up to but not including index 4
+| <a>s[1:]</a>                     | is 'ello' -- omitting either index defaults to the start or end of the string      
+| <a>s[:]</a>                      | is 'Hello' -- omitting both always gives us a copy of the whole thing (this is the pythonic way to copy a sequence like a string or list)    
+| <a>s[1:100]</a>                  | an index that is too big is truncated down to the string length  
+
 </br>
 
 >The standard zero-based index numbers give easy access to chars near the start of the string. As an alternative, Python uses negative numbers to give easy access to the chars at the end of the string: s[-1] is the last char 'o', s[-2] is 'l' the next-to-last char, and so on. Negative index numbers count back from the end of the string:</br>
 
 | <center>Function </center>    | <center>What it does</center>  
 | :-------------                | :-------------                   
-| <a>s[-1] </a>                 |is 'o' -- last char (1st from the end)
-| <a>s[-4]</a>                  |is 'e' -- 4th from the end      
-| <a>s[:-3]</a>                 |is 'He' -- going up to but not including the last 3 chars    
-| <a>s[-3:]</a>                 |is 'llo' -- starting with the 3rd char from the end and extending to the end of the string 
+| <a>s[-1] </a>                 | is 'o' -- last char (1st from the end)
+| <a>s[-4]</a>                  | is 'e' -- 4th from the end      
+| <a>s[:-3]</a>                 | is 'He' -- going up to but not including the last 3 chars    
+| <a>s[-3:]</a>  
+| is 'llo' -- starting with the 3rd char from the end and extending to the end of the string 
 </br>
 
 <h2>String %</h2>
