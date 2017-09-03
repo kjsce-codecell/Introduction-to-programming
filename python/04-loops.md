@@ -52,7 +52,7 @@ Here one should take care of the fact that lines which are indented inside the w
 list=['Jofrey','Cersei','Walder Frey','Meryn Trant','The Red Woman','Beric Dondarrion','Thoros of Myr','Ilyn Payne','The Mountain','The Hound'] # initialize a list with some values
 for people in list: # assigns people a temporary value of elements in the list one by one and executes the code till all elemets in the list are iterated
 	print(people) #prints the current value in the variable people each time
-print("-Arya Stark") # You know who is it but look out for the indentation
+print("-Arya Stark") # You know who it is but look out for the indentation
 ```
 _Output_
 ```
@@ -72,7 +72,7 @@ The Hound
 
 ### Implementation
 ```python
-for x in range(1,11): #make a note of of the ending point of the list
+for x in range(1,11): #make a note of the ending point of the list
 	print(x,"Mississippi") # x takes one by one each value in the range
 ```
 _Output_
