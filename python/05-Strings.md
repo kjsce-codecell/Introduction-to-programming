@@ -2,11 +2,13 @@
 
 <h2>Introduction</h2>
 
->Python has a built-in string class named "str" with many handy features (there is an older module named "string" which you should not use). Python strings are "immutable" which means they cannot be changed after they are created. Since strings can't be changed, we construct *new* strings as we go to represent computed values. So, for example the expression ('hello' + 'there') takes in the 2 strings 'hello' and 'there' and builds a new string 'hellothere'.</br>
+>Python has a built-in string class named "str" with many handy features (there is an older module named "string" which you should not use). Python strings are "immutable" which means they cannot be changed after they are created. Since strings can't be changed, we construct *new* strings as we go to represent computed values. 
 
->Characters in a string can be accessed using the standard [ ] syntax. Python uses zero-based indexing, so if str is 'hello' str[1] is 'e'. If the index is out of bounds for the string, Python raises an error. The Python style (unlike Perl) is to halt if it can't tell what to do, rather than just make up a default value. The handy "slice" syntax (below) also works to extract any substring from a string. The len(string) function returns the length of a string. The [ ] syntax and the len() function actually work on any sequence type -- strings, lists, etc. Python tries to make its operations work consistently across different types. The '+' operator can concatenate two strings.</br>
+>So, for example the expression ('hello' + 'there') takes in the 2 strings 'hello' and 'there' and builds a new string 'hellothere'.
 
->Notice in the code below that variables are not pre-declared -- just assign to them and go.</br>
+>Characters in a string can be accessed using the standard [ ] syntax. Python uses zero-based indexing, so if str is 'hello' str[1] is 'e'. If the index is out of bounds for the string, Python raises an error. The handy "slice" syntax (below) also works to extract any substring from a string. The len(string) function returns the length of a string. The [ ] syntax and the len() function actually work on any sequence type -- strings, lists, etc. Python tries to make its operations work consistently across different types. The '+' operator can concatenate two strings.
+
+>Notice in the code below that variables are not pre-declared -- just assign to them and go.
 
  _**Example**_
 ```python
@@ -16,7 +18,7 @@ print len(s)        ## 2
 print s + ' there'  ## hi there
 ```
 
->The str() function converts values to a string form so they can be combined with other strings.</br>
+>The str() function converts values to a string form so they can be combined with other strings.
 
  _**Example**_
 ```python
@@ -25,11 +27,9 @@ pi = 3.14
 text = 'The value of pi is '  + str(pi)  ## yes
 ```
 
->For numbers, the standard operators, +, /, * work in the usual way. There is no ++ operator, but +=, -=, etc. work. If you want integer division, it is most correct to use 2 slashes -- e.g. 6 // 5 is 1 (previous to python 3000, a single / does int division with ints anyway, but moving forward // is the preferred way to indicate that you want int division.)</br>
-
 <h2>String Methods</h2>
 
->Here are some of the most common string methods. A method is like a function, but it runs "on" an object.</br>
+>Here are some of the most common string methods. A method is like a function, but it runs "on" an object.
 
 <h2>Functions</h2>
 
@@ -48,7 +48,7 @@ text = 'The value of pi is '  + str(pi)  ## yes
 
 <h2>String Slices</h2>  
 
->The "slice" syntax is a handy way to refer to sub-parts of sequences -- typically strings and lists. The slice s[start:end] is the elements beginning at start and extending up to but not including end. Suppose we have s = "Hello"</br>
+>The "slice" syntax is a handy way to refer to sub-parts of sequences -- typically strings and lists. The slice s[start:end] is the elements beginning at start and extending up to but not including end. Suppose we have s = "Hello"
 
 | <center>Function </center>       | <center>What it does</center>  
 | :-------------                   | :-------------                   
@@ -59,7 +59,7 @@ text = 'The value of pi is '  + str(pi)  ## yes
 
 
 
->The standard zero-based index numbers give easy access to chars near the start of the string. As an alternative, Python uses negative numbers to give easy access to the chars at the end of the string: s[-1] is the last char 'o', s[-2] is 'l' the next-to-last char, and so on. Negative index numbers count back from the end of the string:</br>
+>The standard zero-based index numbers give easy access to chars near the start of the string. As an alternative, Python uses negative numbers to give easy access to the chars at the end of the string: s[-1] is the last char 'o', s[-2] is 'l' the next-to-last char, and so on. Negative index numbers count back from the end of the string:
 
 | <center>Function </center>    | <center>What it does</center>  
 | :-------------                | :-------------                   
@@ -72,7 +72,7 @@ text = 'The value of pi is '  + str(pi)  ## yes
 
 <h2>String %</h2>
 
->Python has a printf()-like facility to put together a string. The % operator takes a printf-type format string on the left (%d int, %s string, %f/%g floating point), and the matching values in a tuple on the right (a tuple is made of values separated by commas, typically grouped inside parentheses):</br>
+>Python has a printf()-like facility to put together a string. The % operator takes a printf-type format string on the left (%d int, %s string, %f/%g floating point), and the matching values in a tuple on the right (a tuple is made of values separated by commas, typically grouped inside parentheses):
 
  _**Example**_
 ```python
@@ -80,7 +80,7 @@ text = 'The value of pi is '  + str(pi)  ## yes
 text = "%d little pigs come out or I'll %s and %s and %s" % (3, 'huff', 'puff', 'blow down')
 ```
 
->The above line is kind of long -- suppose you want to break it into separate lines. You cannot just split the line after the '%' as you might in other languages, since by default Python treats each line as a separate statement (on the plus side, this is why we don't need to type semi-colons on each line). To fix this, enclose the whole expression in an outer set of parenthesis -- then the expression is allowed to span multiple lines. This code-across-lines technique works with the various grouping constructs detailed below: ( ), [ ], { }.</br>
+>The above line is kind of long -- suppose you want to break it into separate lines. You cannot just split the line after the '%' as you might in other languages, since by default Python treats each line as a separate statement (on the plus side, this is why we don't need to type semi-colons on each line). To fix this, enclose the whole expression in an outer set of parenthesis -- then the expression is allowed to span multiple lines. This code-across-lines technique works with the various grouping constructs detailed below: ( ), [ ], { }.
 
  _**Example**_
 ```python
