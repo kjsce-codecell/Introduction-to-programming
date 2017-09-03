@@ -27,7 +27,7 @@ Output
 ```
 Ankit studies harder than Siddharth
 ```
-the indentattion here is the key and all the statements that are indented inside the for will be executed regardless of the condition
+The indentation here is the key and all the statements that are indented inside the 'if' will be executed regardless of the condition
 
 ## IF-Else
 * It is an extension to the if condition
