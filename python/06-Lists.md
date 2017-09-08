@@ -1,7 +1,7 @@
 <h1 align="center"> Lists </h1>
 
 ## What are lists ?
-> List is a collection in python. In most languages, it is called Array. We often need 'list' in our programs. Imagine you are writing a program to store name of every student in a class of 50 .  
+> List is a collection in python. In most languages, it is called an Array. We often need 'list' in our programs. Imagine you are writing a program to store the name of every student in a class of 50 .  
 
 > Elements in a list are stored in sequential order . Every element can be accessed by their index value .
 
@@ -24,13 +24,13 @@ player_scores = [ 78, 103, 200 , 57]   # >>> Initialized list with Integers
 player_names = [ "Karan" , "Chirag" , "Jay" , "Raj" ]   #  Initialized list with strings
 ```
 
-> Unlike other programming languages ,  in python we can  Initialized or store elements in a list which are of different datatypes . For example,
+> Unlike other programming languages ,  in python we can  Initialize or store elements which are of different datatypes in the same list. For example,
 
 ```python
 
 unknown_list = [ "google", "tensorflow", 73 , 37.5 ]  # works :P
 
-print("Number of elements : "len(unknown_list))         # >>> Number of elements : 4
+print("Number of elements :", len(unknown_list))         # >>> Number of elements : 4
 
 ```
 
@@ -38,9 +38,9 @@ print("Number of elements : "len(unknown_list))         # >>> Number of elements
 
 > We can add elements to the list by using append & insert methods  .
 
-* Insert( index , element) - We use this method to add elements to a specific postion in a list .
+* Insert(index , element) - We use this method to add elements to a specific postion in a list .
 
-* append( element ) - We use this method to add elements to the back( last postion ) of the list .
+* append(element) - We use this method to add elements to the back(last postion) of the list .
 
 ```python
 scores = [ 1, 2 , 3 , 4 , 5 ]   # Initialized list with Integers
@@ -135,10 +135,10 @@ _output_
 scores  = [25, 89 , 90 , 45 , 87 ]
 
 current = 0
-end = len(score)
+end = len(scores)
 
 while current < end:
-        print(scores[start])
+        print(scores[current])
         current +=1
 
 ```
@@ -226,6 +226,6 @@ print(name_length)      # >>> [6, 4 ,6 ,6]
 # list of squares
 
 squares = [i*i for i in range(1,5)]
-print(squares)          # >>> [1, 4 ,9 , 16 , 25]
+print(squares)          # >>> [1, 4 ,9 , 16]
 
 ```

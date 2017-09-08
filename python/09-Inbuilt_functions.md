@@ -1,7 +1,7 @@
-<h1 align="center"><a href="#"> Strings </a></h1>
+<h1 align="center"><a href="#"> Inbuilt Functions </a></h1>
 
 * The Python interpreter has a number of functions and types built into it that are always available.
-* There is no need to import modules extra in order to use them.
+* There is no need to import any extra modules in order to use them.
 * A few functions that we will be covering here are-
 	* Map
 	* Filter
@@ -10,7 +10,7 @@
 	* Reduce
 
 ## Map
-* It iterates through all the elements of a iterable and applies some specific funtion to each element of that iterable.
+* It iterates through all the elements of an iterable and applies some specific function to each element of that iterable.
 * With multiple iterables, the iterator stops when the shortest iterable is exhausted
 
 ### syntax
@@ -65,7 +65,7 @@ Output
 ## Sort/Sorted
 * Python lists have a built-in sort() method that modifies the list in-place and a sorted() built-in function that builds a new sorted list from an iterable
 * There are many ways to use them to sort data and there doesn't appear to be a single, central place in the various manuals describing them
-* The key difference between both is that sorted returns a new list whereas sort chsnges the original list itself.
+* The key difference between both is that sorted returns a new list whereas sort changes the original list itself.
 
 ### syntax
 ```python
@@ -78,7 +78,7 @@ sorted(list,key=<insert the key>)#sort in ascending order of the key set
 ```python
 
 a = [5, 2, 3, 1, 4]
-a.sort()# .sort() function is specific to lists
+a.sort() #sort() function is specific to lists
 print(a)
 
 chir={2: 'D', 1: 'B', 4: 'B', 3: 'E', 5: 'A'}# declaring a dictionary
@@ -103,14 +103,14 @@ Output
 
 ```
 ## max/min
-* Return the greatets/smallest item in an iterable or the smallest of two or more arguments.
+* Returns the greatest/smallest item in an iterable or the smallest of two or more arguments.
 * It can also be made to make use of key argument as used in sort function
 ### implementation
 ```python
 list = [1, 4, 3, 5,9,2]
 print(max(list)) #returns maximum value of list
 print(min(list)) #returns minimum value in the list
-print(max(list[2:-2])) #returns max value compined with slicing 
+print(max(list[2:-2])) #returns max value combined with slicing 
 print(min(list[4:])
 print(max(4,2,3,5))
 print(min(7,2,1,8,4))
@@ -121,13 +121,15 @@ Output
 1
 5
 9
+5
+1
 
 ```
 
 ## Reduce
 * Reduce is a really useful function for performing some computation on a list and returning the result.
 * It applies a rolling computation to sequential pairs of values in a list
->note this not a inbuilt function as such because it needs to be imported from func tools but is pretty useful.
+>note this not an inbuilt function as such because it needs to be imported from func tools but is pretty useful.
 
 ### implementation
 ```python

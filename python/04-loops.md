@@ -1,7 +1,7 @@
 <h1 align="center"> LOOPS </h1>
 
 ## Why LOOPS?
-* Loops make our life easier by making it easier for us to perform repetetive task without having to actually write the same piece of code again and again that many times
+* Loops make our life easier by making it easier for us to perform repetitive task without having to actually write the same piece of code again and again that many times
 
 * That is it helps you to perform a task as many as times you require depending on the condition you specify
 
@@ -18,7 +18,7 @@
 
 ```python
 count=1 # initializes a counter variable equal to 1
-while(count<=10): # checks if value of counter is less than equal to 15 if yes then execute the below
+while(count<=10): # checks if value of counter is less than equal to 10 if yes then execute the below
 	print(str(count)+") I will do my homework everyday")
 	count=count+1 #increments the value of counter otherwise it will remain less than 10 forever and thus infinite loop
 print("Sorry")
@@ -52,7 +52,7 @@ Here one should take care of the fact that lines which are indented inside the w
 list=['Jofrey','Cersei','Walder Frey','Meryn Trant','The Red Woman','Beric Dondarrion','Thoros of Myr','Ilyn Payne','The Mountain','The Hound'] # initialize a list with some values
 for people in list: # assigns people a temporary value of elements in the list one by one and executes the code till all elemets in the list are iterated
 	print(people) #prints the current value in the variable people each time
-print("-Arya Stark") # You know who is it but look out for the indentation
+print("-Arya Stark") # You know who it is but look out for the indentation
 ```
 _Output_
 ```
@@ -72,7 +72,7 @@ The Hound
 
 ### Implementation
 ```python
-for x in range(1,11): #make a note of of the ending point of the list
+for x in range(1,11): #make a note of the ending point of the list
 	print(x,"Mississippi") # x takes one by one each value in the range
 ```
 _Output_
