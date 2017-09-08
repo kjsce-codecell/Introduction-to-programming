@@ -105,8 +105,11 @@ Output
 ## max/min
 * Returns the greatest/smallest item in an iterable or the smallest of two or more arguments.
 * It can also be made to make use of key argument as used in sort function
+
 ### implementation
+
 ```python
+
 list = [1, 4, 3, 5,9,2]
 print(max(list)) #returns maximum value of list
 print(min(list)) #returns minimum value in the list
@@ -114,8 +117,11 @@ print(max(list[2:-2])) #returns max value combined with slicing
 print(min(list[4:])
 print(max(4,2,3,5))
 print(min(7,2,1,8,4))
+
 ```
+
 Output
+
 ```
 9
 1
@@ -125,6 +131,9 @@ Output
 1
 
 ```
+
+
+
 
 ## Reduce
 * Reduce is a really useful function for performing some computation on a list and returning the result.
@@ -133,6 +142,7 @@ Output
 
 ### implementation
 ```python
+
 #Normal way to find product of elements in a list
 product = 1
 list = [1, 2, 3, 4]
